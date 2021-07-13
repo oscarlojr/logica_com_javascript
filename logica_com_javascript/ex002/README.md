@@ -5,5 +5,5 @@
 </p>
 
  <h1 align="center">
-  <img alt="bandeira" title="#bandeira" src="./img/bandeira.png" />
+  <img alt="creeperMinecraft" title="#creeperMinecraft" src="./img/creeper.png" />
 </h1>

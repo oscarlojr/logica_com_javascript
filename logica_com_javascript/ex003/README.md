@@ -5,5 +5,5 @@
 </p>
 
  <h1 align="center">
-  <img alt="bandeira" title="#bandeira" src="./img/bandeira.png" />
+  <img alt="esquadro" title="#esquadro" src="./img/esquadro.png" />
 </h1>
