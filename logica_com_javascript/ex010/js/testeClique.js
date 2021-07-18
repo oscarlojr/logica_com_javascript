@@ -5,7 +5,7 @@ var pincel = tela.getContext('2d');
 pincel.fillStyle = 'grey';
 pincel.fillRect(0, 0, 600, 400);
 
-var cores = ['blue', 'red', 'green']
+var cores = ['blue', 'red', 'green','yellow']
 var indiceCorAtual = 0; // começa com blue
 
 function desenhaCirculo(evento) {
