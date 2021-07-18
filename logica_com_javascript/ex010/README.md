@@ -5,5 +5,5 @@
 </p>
 
  <h1 align="center">
-  ![Alt Text](./img/desenhaCirculo.gif)
+  <img alt="desenhaCirculo" title="#desenhaCirculo" src="./img/desenhaCirculo.gif" />
 </h1>
