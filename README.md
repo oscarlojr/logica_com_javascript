@@ -1,2 +1,2 @@
-# exercicios
- Relação de exercícios de cursos por pasta
+# lógica com JavaScript
+ Relação de exercícios do curso de Lógica com JavaScript
