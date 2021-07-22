@@ -16,11 +16,23 @@ function limpaTela() {
     pincel.clearRect(0, 0, 600, 400);
 
 }
-var x = 20
-function atualizaTela(){
-    limpaTela();
-    desenhaCirculo(x,20,10,'blue');
-    x++
-}
+var x = 11;
+var definir = 0;
 
-setInterval(atualizaTela,20);
+    function atualizaTela(){
+        
+        if(x==590 | x==10){
+            definir++;
+        }        
+        limpaTela();
+        desenhaCirculo(x, 20, 10,'green');
+
+        if(definir % 2===0 ){
+            x++;
+        }else{
+            x--;
+        }
+        
+    }
+
+    setInterval(atualizaTela,20);
