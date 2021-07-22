@@ -17,6 +17,8 @@ function limpaTela() {
 
 }
 var x = 11;
+
+//Minha lógica
 var definir = 0;
 
     function atualizaTela(){
@@ -35,4 +37,24 @@ var definir = 0;
         
     }
 
-    setInterval(atualizaTela,20);
+    setInterval(atualizaTela,5);
+
+
+//Lógica do professor
+/*
+var sentido = 1;
+
+function atualizaTela() {
+
+    limpaTela();
+
+    if( x > 600) {
+        sentido = -1;
+    } else if (x < 0) {
+        sentido = 1;
+    } 
+
+    desenhaCirculo(x, 20, 10);
+    x = x + sentido;
+}
+*/
