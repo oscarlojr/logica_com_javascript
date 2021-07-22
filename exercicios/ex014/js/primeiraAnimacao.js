@@ -27,7 +27,7 @@ var definir = 0;
         limpaTela();
         desenhaCirculo(x, 20, 10,'green');
 
-        if(definir % 2===0 ){
+        if(definir % 2==0 ){
             x++;
         }else{
             x--;
