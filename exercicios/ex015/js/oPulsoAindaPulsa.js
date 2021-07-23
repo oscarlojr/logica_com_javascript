@@ -17,19 +17,19 @@ function limpaTela() {
 }
 
 //Mimnha lógica
-var x = 21;
+var raio = 21;
 var definir = 0;
 
 function pulso(){
-    if(x==20 | x==100){
+    if(raio==20 | raio==100){
         definir++;
     }
     limpaTela();
-    desenhaCirculo(300,200,x,'green');
+    desenhaCirculo(300,200,raio,'green');
     if(definir %2==0){
-        x++;
+        raio++;
     }else{
-        x--;
+        raio--;
     }
 }
 
