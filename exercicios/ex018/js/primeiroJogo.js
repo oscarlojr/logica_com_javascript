@@ -43,6 +43,7 @@ function dispara(evento){
     
     var x = evento.pageX - tela.offsetLeft;
     var y = evento.pageY - tela.offsetTop;
+
     if((x>xAleatorio-raio)
         &&(x<xAleatorio+raio)
         &&(y>yAleatorio-raio)
@@ -55,7 +56,9 @@ function dispara(evento){
             }else{
                 alert('Acertou '+acertos+' vezes');
             }
+
     }   
+   
 }
 
 tela.onclick = dispara;
