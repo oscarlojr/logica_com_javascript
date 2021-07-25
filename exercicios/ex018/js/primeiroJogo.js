@@ -35,9 +35,10 @@ function atualizaTela(){
 }
 
 setInterval(atualizaTela,900);
+            
 
 var acertos = 0;
-var tentativa;
+
 function dispara(evento){
     
     var x = evento.pageX - tela.offsetLeft;
@@ -47,16 +48,14 @@ function dispara(evento){
         &&(y>yAleatorio-raio)
         &&(y<yAleatorio+raio)){
             acertos++;
-            alert('Acertou '+acertos);
-    }   
-    
-    return tentativa = acertos;
-   
-}
-console.log(tentativa);
-/*
-if(tentativa){
+            if (acertos==1){
+                
+                alert('Acertou '+acertos+' vez');
 
-    document.write('Número de acertos = '+acertos);
-}*/
+            }else{
+                alert('Acertou '+acertos+' vezes');
+            }
+    }   
+}
+
 tela.onclick = dispara;
